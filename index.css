@@ -1,0 +1,57 @@
+/*Body*/
+main{
+    font-family: sans-serif;
+    width: 600px;
+    margin: auto;
+}
+body{
+    background-color: gray;
+}
+.titulo h1, .titulo h2{
+    font-size: 40px;
+}
+.titulo h1::first-letter, .titulo h2::first-letter{
+text-decoration: underline;
+}
+/*Imagenes*/
+.imagenes p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.imagenes img{
+width:82px;
+margin-right: 40px;
+}
+
+.imagenes img:last-child{
+    margin-right: 0;
+}
+
+/*Resto*/
+.resto img{
+width: 100%;
+}
+.resto p{
+    font-weight: bolder;
+    text-align: center;
+}
+.resto{
+    margin-top: 30px;
+}
+
+.resto a{
+    font-family: monospace;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    background-color: lightyellow;
+    border: 3px solid orange;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px ;
+}
+.resto a:hover{
+    background-color: orange;
+}
